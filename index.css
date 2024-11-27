@@ -1,0 +1,93 @@
+/* 目錄樣式 */
+.navbar {
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; 
+    position: relative;
+    height: 50px;
+}
+
+/* 主icon樣式 */
+.icon {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+.mytab{
+    display: inline-block;
+    padding-right: 5px;
+    padding: 15px;
+   
+}
+.mytab img{
+    width: 40px;
+    height: 40px;
+    /* transition: filter 0.3s ease; */
+}
+.mytab img:hover{
+    /* filter: grayscale(100%); */
+}
+
+
+/*  */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(200, 200, 200);
+    
+}
+.product-card{
+    overflow: hidden;
+    width: 350px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0  , 0, 0, 0.3);
+    margin: 20px;
+
+}
+.product-image{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.product-image img{
+    width: 100%;
+    height: 110%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    
+}
+.product-card:hover .product-image img{
+   transform: scale(1.5);
+}
+
+.product-info{
+    padding: 20px;
+}
+.product-name{
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: tomato;
+}
+.totle{
+    padding-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.title{
+    padding-top: 20px;
+    padding-left: 120px;
+}
